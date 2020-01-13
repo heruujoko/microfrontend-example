@@ -4,6 +4,10 @@
 - go to `react-fe` directory
 - `npm run dev` and `npm run serve` (needed 2 terminal tab for this)
 
+### vue side
+- go to `vue-fe` directory
+- `npm run dev` and `npm run serve` (needed 2 terminal tab for this)
+
 ### wrapper side
 - `npm run start`
 

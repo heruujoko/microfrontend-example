@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>your name is {this.name}</h2>
+        <h2>your name is {{this.name}}</h2>
     </div>
 </template>
 

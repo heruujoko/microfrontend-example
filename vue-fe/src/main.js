@@ -6,6 +6,7 @@ class VueElement extends HTMLElement {
     super();
     this.observer = new MutationObserver(() => this.update());
     this.observer.observe(this, {attributes: true});
+    this.attachShadow({ mode: 'open' });
   }
 
   connectedCallback() {

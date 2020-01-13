@@ -1,7 +1,40 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "name": "vue-fe",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    $END$
+    "@vue/cli-service": "^4.1.2",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "start": "npm run build && serve -l 5003 dist",
+    "dev": "vue-cli-service build --mode development",
+    "serve": "serve -l 5003 dist"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.10"
   }
 }
