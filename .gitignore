@@ -1,3 +1,4 @@
 node_modules/
 react-fe/node_modules/
 vue-fe/node_modules/
+.idea/
